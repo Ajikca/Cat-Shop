@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  background-color: #f1faee;
+}
+
+.Card:hover {
+  transform: scale(1.1);
+  background-color: #457b9d;
+  cursor: pointer;
+}
+
+.Card {
+  position: relative;
+  width: 350px;
+  height: 430px;
+  background-color: #a8dadc;
+  transition: 0.5s;
+  padding: 0px;
+  box-shadow: 1em 1em 1em #03055e38;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  padding: 0;
+  border-radius: 15px;
+}
+
+.catapi div {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  align-content: space-between;
+  justify-items: stretch;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.Para {
+  position: relative;
+  right: 405px;
+  top: 208px;
+  width: 300px;
+}
+
+.catapi {
+  display: flex;
+}
+
+h1 {
+  margin: 0.5em;
+}
+
+#catButton {
+  margin: auto;
+  position: relative;
+  left: 13.8em;
+  background-color: #a8dadc;
+  border: none;
+  padding: 1em;
+  width: 10em;
+  font-size: 1em;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#catButton:hover {
+  background-color: #e63946;
+}
+
+.links {
+  margin-top: 2em;
+  background-color: #a8dadc;
+  width: 30%;
+  border-radius: 18px;
+}
+
+a {
+  margin: 1em;
+  font-size: 1.8em;
+  text-decoration: none;
+  transition: 0.3s;
+  color: #e63946;
+}
+
+a:link a:visited {
+  color: white;
+}
+
+a:hover {
+  transform: scale(1.1);
+  color: antiquewhite;
+}
+
+#text-field {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 1.4em;
+
+}
+
+#text-field div {
+  margin-top: 10px;
+}
+
+#firstname-textarea {
+  width: 38em;
+  margin-top: 1em;
+
+
+}
+
+.textfield-div {
+  background-color: aliceblue;
+  width: 43em;
+  height: 32em;
+  border-radius: 15px;
+}
+
+#formButton {
+  margin-top: 1em;
+  margin-left: 6px;
+  width: 45em;
+}
